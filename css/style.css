@@ -12,7 +12,7 @@ body{
 }
 
 .box{
-    width: 300px;
+    width: 19em;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -20,26 +20,26 @@ body{
     transform: translate(-50%,-50%);
     background: #191919;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 3em;
 }
 
 .box input[type = "text"],.box input[type = "password"]{
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 2em auto;
     text-align: center;
-    border: 2px solid #3498db;
-    padding: 14px 10px;
-    width: 200px;
+    border: .2em solid #3498db;
+    padding: 1em 1em;
+    width: 13em;
     outline: none;
     color: white;
-    border-radius: 24px;
+    border-radius: 25em;
     transition: 0.25s;
 }
 
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
-    width: 280px;
+    width: 19em;
     border-color: #2ecc71;
 }
 
@@ -47,13 +47,13 @@ body{
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: 2em auto;
     text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
+    border: 0.2em solid #2ecc71;
+    padding: 1em 2em;
     outline: none;
     color: white;
-    border-radius: 24px;
+    border-radius: 24em;
     transition: 0.25s;
     cursor: pointer;
 }
