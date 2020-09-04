@@ -41,7 +41,7 @@ function validate(){
         return false;
 
     }else {
-        alert(";)")
+        alert("😁")
         return true;
     }
 
