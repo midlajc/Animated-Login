@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/login_style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <title>Login</title>
 </head>
 <body>
-     
+    
+    <div class="container">
+    <div id="header" class="header">
+        <canvas id="demo-canvas"></canvas>
+
     <form class="box" onsubmit="return (validate());">
         <h1>login</h1>
         <input type="text" name="name" id="name" placeholder="User Name">
@@ -16,7 +21,10 @@
 
     </form>
 
-    <script src="js/validater.js"> </script>   
+    </div></div></div>
+
+    <script src="js/validater.js"> </script> 
+    <script src="js/animation.js"></script> 
 </body>
 
 </html>

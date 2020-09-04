@@ -1,0 +1,20 @@
+/* Header */
+.header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.container .header {
+	background-image: url('../img/background.jpg');
+	background-position: center bottom;
+}
+
+input{
+    font-family:inherit;
+    font-size:100%;
+}
