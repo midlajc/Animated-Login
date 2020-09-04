@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/login_style.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-    
-    <form class="box" action="#">
-        <h1>Login</h1>
-        <input type="text" name="" id="uname" placeholder="User Name">
-        <input type="password" name="" id="password" placeholder="Password">
-        <input type="submit" name="" value="Login" onclick="validate()">
+     
+    <form class="box" onsubmit="return (validate());">
+        <h1>login</h1>
+        <input type="text" name="name" id="name" placeholder="User Name">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="submit" name="submit" value="Login" >
+
     </form>
 
     <script src="js/validater.js"> </script>   
 </body>
+
 </html>
 
