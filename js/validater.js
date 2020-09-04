@@ -40,6 +40,9 @@ function validate(){
         document.getElementById("password").style.border="0.2em solid  #CC3333"
         return false;
 
-    }else return true;
+    }else {
+        alert(";)")
+        return true;
+    }
 
 }
