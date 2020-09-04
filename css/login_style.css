@@ -34,7 +34,7 @@ body{
     margin: 1.6rem auto;
     text-align: center;
     border: .2rem solid #3498db;
-    padding: 0.8rem 0.8rem;
+    padding: 1rem 0.8rem;
     width: 13em;
     outline: none;
     color: white;
@@ -55,7 +55,7 @@ body{
     margin: 1.6rem auto;
     text-align: center;
     border: 0.2em solid #2ecc71;
-    padding: 0.8rem 1.7rem;
+    padding: 1rem 1.7rem;
     outline:none;
     color: white;
     border-radius: 24rem;
